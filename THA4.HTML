@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANALOG CLOCK ANIMATION</title>
+</head>
+<style>
+#watch{
+    position:relative;
+    margin:auto;
+    margin-top:auto;
+    height: 40vw;
+    width:40vw ;
+    border-radius: 40vw;
+    border:5vw solid red;
+
+}
+
+#skeleton{
+    position: absolute;
+    display:inline-block;
+    margin: auto;
+    height: 50vw;
+    width: 50vw;
+}
+#hour,#minute,#second{
+position:absolute;
+background:black;
+border-radius: 20px;
+transform-origin:bottom;
+
+}
+#hour{
+    width:1.2%;
+    height:20%;
+    top:40%;
+left:49.25%;
+opacity:0.8;
+animation: 12960000s steps(60,end)infinite;
+}
+#minute{
+
+    width:0.5%;
+    height:30%;
+    top:11%;
+    left:49.5%;
+    opacity: 0.8;
+    animation: 3600s steps(60,end)infinite;
+}
+#second{
+    width:0.30%;
+    height:30%;
+    top:11%;
+    left:49.5%;
+    opacity:0.8;
+    animation:sec 60s steps(60,end)infinite;
+}
+@keyframes sec{
+    to{
+        transform:rotate(360deg)
+    }
+}
+</style>
+
+<body>
+<div id="watch"></div>
+<div id="skelton"></div>
+<div id="innercircle"></div>
+<div id="hour"></div>
+<div id="minute"></div>
+<div id="second"></div>
+
+    
+</body>
+</html>
