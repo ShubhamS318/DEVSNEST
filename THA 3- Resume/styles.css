@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+    background:rgb(240,239,239);
+    font-family: 'Poppins', sans-serif;
+    left: auto;
+}
+
+h1{
+    margin: 0;
+    font-weight :400;
+}
+h2{
+    margin:0;
+    font-weight : 400;
+}
+.box{
+    background: rgb(241, 241, 241);
+    width: 50rem;
+    padding: 3 rem;
+    margin: 1 rem auto;
+    border-radius: 1rem;
+}
+
+.header{
+    display: grid;
+    grid-template-columns: 40% 60%;
+
+}
+.header_left{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    font-size: 2 rem;
+}
+.last_name{
+    font-weight: 200;
+    margin: 0%;
+
+}
+.header_right{
+    width: 100%;
+    position: relative;
+    display: grid;
+    justify-items: end;
+}
+.header_right p{
+    display: inline;
+}
+.icon{
+    color: violet;
+    font-size: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.grey{
+    background: rgb(75, 4, 75);
+    color: #fff;
+    padding:0.2rem;
+    border-radius: 0.3rem;
+    right: auto;
+}
+.table{
+    border: 2px solid black;
+    margin: 1 rem 0;
+    width: 100%;
+    text-align: centre;
+    border-collapse: collapse;
+    
+    padding: 0.5rem;
+}
+
+
+.td,th{
+
+    padding: 0.5rem;
+}
+.profession{
+    font-style: oblique;
+}
