@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <script src="index.js"></script>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="naac-2.png" alt="logo">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            
+        </nav>
+        <div class="header-text">
+            <p>Electrical Engineer</p>
+            <h1>Hi, I am <span>Shubham Sakhare</span>  <br> From Nagpur</h1>
+        </div>
+    </div>
+
+</div>
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="shubham1000.png" alt="">
+            </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta aliquam corporis dolores quaerat nihil, veniam laboriosam omnis facere natus modi facilis magnam! Quidem earum excepturi id incidunt aliquid, voluptates facilis.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links"onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Electrical</span><br> Designing web app</li>
+                            <li><span>Web development</span><br> Designing web app</li>
+                            <li><span>App development</span><br> Designing web app</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2021-current</span><br> Design Training at ET institute</li>
+                            <li><span>2019-21</span><br> Team lead at startup LLC</li>
+                            <li><span>2016-2017</span><br> Internship at ekartecommerce</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2019-current</span><br> Bachelors of Electrical Engineering</li>
+                            <li><span>2017-2019</span><br> Higher secondary Education</li>
+                            <li><span>Till 2017</span><br> SSC </li>
+                        </ul>
+                    </div>
+                </div>
+            
+        </div>
+    </div>
+</div>
+
+<!-------------services-->
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>web design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex nemo beatae expedita, nostrum distinctio omnis, ullam reiciendis tempore laudantium tenetur possimus illum corrupti fugiat voluptatum delectus vero temporibus ipsum animi.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <h2>web design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex nemo beatae expedita, nostrum distinctio omnis, ullam reiciendis tempore laudantium tenetur possimus illum corrupti fugiat voluptatum delectus vero temporibus ipsum animi.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <h2>web design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex nemo beatae expedita, nostrum distinctio omnis, ullam reiciendis tempore laudantium tenetur possimus illum corrupti fugiat voluptatum delectus vero temporibus ipsum animi.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<div id="porfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="download.jpg" alt="">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>This will connect you to talented people around the world</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="02f73109ee8daeb2b0bbc81a7d00c84e--electrical-engineering-crane.jpg" alt="">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>This will connect you to talented people around the world</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="download (1).jpg" alt="">
+                <div class="layer">
+                    <h3>Mp3 App</h3>
+                    <p>This will connect you to talented people around the world</p>
+                </div>
+            </div>
+            <a href="#" class="btn" >See More</a>
+        </div>
+    </div>
+
+
+ <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p>shubhamsakhare373@gmail.com</p>
+                <p>7387842949</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/shubham-sakhare-96517b199/"></a>
+                    <a href="https://github.com/session"></a>
+                    <a href="https://www.facebook.com/"></a>
+                    <a href=""></a>
+                </div>
+                <a href="Shubham Sakhare RESUME.pdf" download class ="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type = "submit" class="btn btn2">Submit</button>
+
+                </form>
+
+               
+            </div>
+        </div>
+    </div>
+ </div> 
+ 
+
+</div>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).clasList.add("active-tab");
+    }
+</script>
+
+</body>
+</html>
